@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 04, 2015 at 12:03 PM
+-- Generation Time: May 04, 2015 at 02:49 PM
 -- Server version: 5.1.40
 -- PHP Version: 5.3.1
 
@@ -74,6 +74,47 @@ INSERT INTO `a_categories` (`idCat`, `titleCat`) VALUES
 (1, 'Bmw'),
 (2, 'Mercedes'),
 (3, 'Lexus');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `a_galary`
+--
+
+CREATE TABLE IF NOT EXISTS `a_galary` (
+  `idAuto` int(5) NOT NULL,
+  `image` varchar(15) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `a_galary`
+--
+
+INSERT INTO `a_galary` (`idAuto`, `image`) VALUES
+(1, '1.jpg'),
+(1, '2.jpg'),
+(1, '3.jpg'),
+(2, '2.jpg'),
+(2, '5.jpg'),
+(3, '3.jpg'),
+(3, '4.jpg'),
+(3, '6.jpg'),
+(4, '4.jpg'),
+(4, '6.jpg'),
+(4, '8.jpg'),
+(5, '5.jpg'),
+(5, '9.jpg'),
+(5, '6.jpg'),
+(6, '6.jpg'),
+(6, '7.jpg'),
+(6, '2.jpg'),
+(7, '7.jpg'),
+(7, '8.jpg'),
+(7, '3.jpg'),
+(8, '8.jpg'),
+(8, '4.jpg'),
+(9, '9.jpg'),
+(9, '1.jpg');
 
 -- --------------------------------------------------------
 

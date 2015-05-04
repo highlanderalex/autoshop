@@ -15,14 +15,6 @@
 		
 		public function index()
 		{
-			/*try
-			{
-				$this->view->result = $this->client->getData(3);
-			}
-			catch (SoapFault $e)
-			{
-				$this->view->result = $e->getMessage();
-			}*/
 			$this->view->cars = $this->client->getCars();
 			$this->view->render('index');
 		}
@@ -38,6 +30,7 @@
 			try
 			{
 				$this->view->image = $this->client->getImage($id);
+				$this->view->galary = $this->client->getGalary($id);
 				$this->view->auto = $this->client->getInfoAuto($id);
 			}
 			catch (SoapFault $e)

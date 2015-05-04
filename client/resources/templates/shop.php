@@ -10,7 +10,7 @@
 
 <body>
 <div id="container">
-	<div id="header"></div>
+	<div id="header_my"></div>
 	<div id="main">
 		<div id="mn" style="float:left;width:200px;margin:0 auto;margin-top:10px">
 			<div class="menu"><p align="center"><a href="index.php?view=index">Main</a></p></div>
@@ -100,6 +100,6 @@
 		</div>
 	</div>
 </div>
-<div id="footer" class="clear"><p align="center">&copy; 2015 highlanderalex</p></div>
+<div id="footer_my" class="clear"><p align="center">&copy; 2015 highlanderalex</p></div>
 </body>
 </html>

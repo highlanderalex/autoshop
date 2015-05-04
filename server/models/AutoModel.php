@@ -75,4 +75,15 @@
             return $res; 
         }
 		
+		public function returnGalary($id)
+        {
+			$arr['where'] = $id;
+            $res = $this->inst->Select('image')
+                              ->From('a_galary')
+							  ->Where('idAuto=')
+							  ->Execute($arr);
+			$res = $this->inst->dbResultToArray($res);
+            return $res; 
+        }
+		
     }

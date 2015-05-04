@@ -4,7 +4,7 @@
 	require_once ('class/ServerSoap.php');
 	
 	ini_set('soap.wsdl_cache_enabled', '0');
-	$obj = new SoapServer('auto.wsdl');
+	$obj = new SoapServer('auto1.wsdl');
 	$obj->setClass('ServerSoap');
 	$obj->handle();
 	

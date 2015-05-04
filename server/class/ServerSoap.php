@@ -41,6 +41,20 @@
 			}
         }
 		
+		public function getGalary($id)
+        {
+			$model = new AutoModel();
+            $res = $model->returnGalary($id);
+			if(!empty($res))
+			{
+				return $res;
+			}
+			else
+			{
+				throw new SoapFault('Server', 'ID auto do not exist');
+			}
+        }
+		
 		public function getInfoAuto($id)
         {
 			$model = new AutoModel();
