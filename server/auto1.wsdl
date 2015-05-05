@@ -1,14 +1,14 @@
-<?xml version ='1.0' encoding ='UTF-8' ?> 
+<?xml version ='1.1' encoding ='UTF-8' ?> 
 <definitions name='Auto' 
-  targetNamespace='http://localhost/autoshop/server' 
-  xmlns:tns=' http://localhost/autoshop/server ' 
+    targetNamespace='http://http://192.168.0.15/~user4/PHP/autoshop/server' 
+    xmlns:tns='http://192.168.0.15/~user4/PHP/autoshop/server ' 
   xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/' 
   xmlns:xsd='http://www.w3.org/2001/XMLSchema' 
   xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' 
   xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/' 
   xmlns='http://schemas.xmlsoap.org/wsdl/'> 
 <types>
-	<xsd:schema elementFormDefault="qualified" targetNamespace='http://localhost/autoshop/server'>
+    <xsd:schema elementFormDefault="qualified" targetNamespace='http://192.168.0.15/~user4/PHP/autoshop/server'>
 		<xsd:complexType name="InfoAuto">
 			<xsd:sequence>
 				<xsd:element name="model" type="xsd:string"/>
@@ -166,7 +166,7 @@
 </binding> 
 <service name='AutoService'> 
 	<port name='AutoPort' binding='AutoBinding'> 
-		<soap:address location='http://localhost/autoshop/server/server.php'/> 
+        <soap:address location='http://192.168.0.15/~user4/PHP/autoshop/server/server.php'/> 
 	</port> 
 </service> 
 </definitions>
