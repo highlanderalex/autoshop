@@ -13,7 +13,7 @@
 				showTitle: true,
 				allowresize: true,
 				counter_separator_label: '/', 
-				theme: 'dark_rounded', 
+				theme: 'dark_square', 
 				callback: function(){}
 			});
 		});

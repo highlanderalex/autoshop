@@ -5,7 +5,6 @@
     <title>AutoMagazin</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="resources/css/style.css">
-	<script type="text/javascript" src="js/myscript.js"></script>
 </head>
 
 <body>
